@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width:1000px) {
+   header{
+        display:none;        
+    }
+    
+    
+}
+@media (max-width:1000px) {
+   #section-one{
+        display:block;        
+    }
+    
+    
+}
+@media (max-width:950px) {
+    footer{
+        display: none;
+    }
+    
+}
+@media (max-width:950px) {
+    .brand-logo{
+        display: none;
+    }
+    
+    
+}
+
+
+/*----- navigaiton bar styling -----*/
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top:2.5em ;
+    margin-right: 3.75em;
+    margin-bottom: 9.375em;
+}
+
+/*----- navaigation bar: heading styles -----*/
+#heading{
+    font-size: 1.5em;
+    margin-right: auto;
+    margin-left:3.75em ;
+    font-family: 'Inter', sans-serif;
+    
+
+}
+
+/*----- navigation bar: list-part styles -----*/
+#navbar ul{
+    display: flex;
+    
+}
+#navbar li{
+    list-style: none;
+    font-size: 1.5em;
+}
+#navbar li a{
+    color: black;
+    padding: 9px 28px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+#navbar li a:hover{
+    color: white;
+    background-color: black;
+}
+
+/*-----  first section structure -----*/
+
+#section-one{
+    display: flex;
+    justify-content: space-between;
+    margin-top:2.5em ;
+    margin-right: 3.75em;
+    margin-bottom: 9.375em;
+
+}
+
+#main-heading h1{
+    font-size: 4.5em;
+    margin-left:75px ;
+    margin-top:50px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+#main-heading p{ 
+    font-size: 1.5em;
+    margin-left:75px ;
+    margin-bottom: 30px;
+
+    ;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+#main-heading a{
+    color: white;
+    font-size: 1.5em;
+    margin-left:75px ;
+    text-decoration: none;
+    font-family: 'Source Sans Pro', sans-serif;         
+}
+
+#button{
+    border: none;
+    margin-left:75px ;
+    padding: 14px;
+    width: 300px;
+    border-radius: 25px;
+    background-image: linear-gradient( #ED2B33FF , #D85A7FFF);
+    transition:all 3s ease-in-out ;           
+}
+
+#image img{
+    width: 800px;
+    height: 600px;
+    cursor: pointer;
+    transition: 9s;
+    
+}
+#image:hover img{
+    transform:skew(-25deg)
+   
+}
+
+/*----- Brand lolgo decoration -----*/
+
+.brand-logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 200px;
+    margin: 70px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px lightgray;
+    
+}
+
+/*----- secton2:making image album -----*/
+
+#second-heading{
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+   
+
+}
+.item-gallery{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    row-gap: 50px;
+}
+.images-box{
+    height: 555px;
+    width: 329px;
+    margin-left: 75px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 20px lightgray;
+}
+.images-box .item-image img{
+    height: 569;
+    width: 300;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+   
+}
+.item-title{
+    font-size: 2.1em;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: 'Inter', sans-serif;
+}
+.item-price{
+    font-size: 1.8em;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
+.fa-star.filled{
+    margin-left: 10px;
+    color: #FFC014;
+}
+.fa-star.empty{
+    color: #D3D3D3;
+}
+.star-rating{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.item-availability{
+    font-size: 1.7em;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-family: 'Source Sans Pro', sans-serif; 
+
+}
+/*----- see more -----*/
+.more h3{
+    font-size: 1.5em;
+    text-align: end;
+    margin-top: 40px;
+    margin-right: 242px;
+    margin-bottom: 50px;
+    color: #ED2B33FF; 
+    cursor: pointer;
+    font-family: 'Inter', sans-serif;
+}
+
+/*----- footer the end part styling -----*/
+footer{
+    width: 100%;
+    height: 170px;
+    text-align: center;
+    color: white;
+    background-color:#304146 ;
+    
+
+}
+footer h1{
+    font-size: 2.1em;
+    
+    font-family: 'Inter', sans-serif;
+}
+footer p{
+    font-size: 1.5em;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.icon{
+    margin: 10px;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+/*----- End of styling ------*/
+
+
+    
